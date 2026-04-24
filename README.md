@@ -1,7 +1,5 @@
 # Proyecto-2.-Validacion-de-entradas-usando-automata
 
-# Automaton String Validator (Racket)
-
 ## Descripción
 
 Este proyecto implementa una función en Racket que permite validar si una o varias cadenas son aceptadas por un **autómata finito determinista (DFA)**.
