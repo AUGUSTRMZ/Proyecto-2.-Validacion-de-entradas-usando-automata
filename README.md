@@ -55,8 +55,8 @@ El programa devuelve una lista de valores booleanos
 ```
 ### Valor
 
-`#t` - cadena aceptada
-`#f` - cadena rechazada
+* `#t` - cadena aceptada
+* `#f` - cadena rechazada
 
 
 ## Estructura del proyecto
