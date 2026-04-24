@@ -63,10 +63,10 @@ El programa devuelve una lista de valores booleanos
 
 ### Funcion
 
-`next-state` - Busca la transicion correspondiente a un estado y simbolo
-`valid-string` - valida una cadena de texto
-`validate-strings` - valida multiples cadenas de texto usando valid-string como funcion auxiliar
-`validate` - funcion principal
+* `next-state` - Busca la transicion correspondiente a un estado y simbolo
+* `valid-string` - valida una cadena de texto
+* `validate-strings` - valida multiples cadenas de texto usando valid-string como funcion auxiliar
+* `validate` - funcion principal
 
 
 ## Complejidad
