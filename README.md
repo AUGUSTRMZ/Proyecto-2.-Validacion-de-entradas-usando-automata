@@ -48,3 +48,35 @@ Listas de cadenas para validar
 ``` racket
 '((a b b) (a b) (a a b))
 ```
+### Salida
+El programa devuelve una lista de valores booleanos
+```racket
+'(#t #f #f)
+```
+### Valor
+```racket
+#t ; cadena aceptada
+#f ; cadena rechazada
+```
+
+## Estructura del proyecto
+
+### Funcion
+
+`next-state` - Busca la transicion correspondiente a un estado y simbolo
+`valid-string` - valida una cadena de texto
+`validate-strings` - valida multiples cadenas de texto usando valid-string como funcion auxiliar
+`validate` - funcion principal
+
+
+## Complejidad
+Sea:
+* `m` = numero de cadenas
+* `n` = longitud promedio de cada cadena
+* `t` = numero de transiciones
+
+La complejidad del algoritmo es entonces:
+`O(m * n * t)`
+
+
+
